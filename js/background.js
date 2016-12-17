@@ -14,7 +14,8 @@ $(function() {
             url: requestURL,
             type: 'post',
             data: 'payload=' + JSON.stringify({
-                "text": tab.url,
+                "text": '<' + tab.url + '>',
+                "unfurl_links": true,
                 "channel": channel,
                 "username": botname,
                 "icon_emoji": ":stars:"

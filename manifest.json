@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
 
-    "name": "slackmark",
+    "name": "slackmarks",
     "description": "This extension bookmarks an url which you are watching to a slack channel.",
     "version": "0.1",
 
